@@ -9,7 +9,7 @@
   "author": "Kenneth Ormandy <hello@kennethormandy.com> (http://kennethormandy.com)",
   "scripts": {
     "test": "http-server -s -p 8095 & open http://localhost:8095/test",
-    "build-js": "browserify src/index.js -s fontFeatureFibbing -o dist/font-feature-fibbing.js",
+    "build-js": "browserify src/index.js -s fontFeatureFibbing -o dist/font-feature-fibbing.js && minify dist/font-feature-fibbing.js dist/font-feature-fibbing.js",
     "build": "npm run build-js"
   },
   "keywords": [
@@ -20,6 +20,7 @@
   ],
   "devDependencies": {
     "browserify": "~6.3.2",
+    "minify": "git://github.com/ianstormtaylor/minify",
     "mocha": "~1.18.2"
   }
 }
