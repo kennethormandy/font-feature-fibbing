@@ -1,6 +1,6 @@
 {
   "name": "font-feature-fibbing",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A quick check—is the `font-feature-settings` CSS property supported?",
   "homepage": "https://github.com/kennethormandy/font-feature-fibbing",
   "repository": "https://github.com/kennethormandy/font-feature-fibbing.git",
