@@ -1,0 +1,25 @@
+{
+  "name": "font-feature-affecting",
+  "version": "0.0.0",
+  "description": "A quick check—is the `font-feature-settings` CSS property supported?",
+  "homepage": "https://github.com/kennethormandy/font-feature-affecting",
+  "repository": "https://github.com/kennethormandy/font-feature-affecting.git",
+  "license": "MIT",
+  "main": "src/index.js",
+  "author": "Kenneth Ormandy <hello@kennethormandy.com> (http://kennethormandy.com)",
+  "scripts": {
+    "test": "http-server -s -p 8095 & open http://localhost:8095/test",
+    "build-js": "browserify src/index.js -s fontFeatureAffecting -o dist/font-feature-affecting.js",
+    "build": "npm run build-js"
+  },
+  "keywords": [
+    "type",
+    "typograhpy",
+    "font",
+    "tester"
+  ],
+  "devDependencies": {
+    "browserify": "~6.3.2",
+    "mocha": "~1.18.2"
+  }
+}

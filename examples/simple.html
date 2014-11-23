@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Hi</title>
+    <link href="http://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
+    <style>
+      h1 {
+        position: absolute;
+        top: 0;
+        font-family: "Maven Pro", "Klinic Slab", "Avenir Next", "Avenir", Verdana, sans-serif;
+        font-weight: 300;
+        font-size: 15em;
+        -webkit-font-feature-settings: "kern" 1, "liga" 1;
+        -moz-font-feature-settings: "kern" 1, "liga" 1;
+        font-feature-settings: "kern" 1, "liga" 1;
+      }
+      .compare {
+        color: rgba(255, 0, 0, 0.5);
+        -webkit-font-feature-settings: "kern" 0, "liga" 0;
+        -moz-font-feature-settings: "kern" 0, "liga" 0;
+        font-feature-settings: "kern" 0, "liga" 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="compare">different left</h1>
+      <h1>different left</h1>
+    </header>
+    <script src="../dist/font-feature-affecting.js"></script>
+    <script>
+      if(!fontFeatureAffecting()) {
+        alert('u would love these ligatures, im telling you');
+      } else {
+        alert('nah, you’re cool')
+      }
+    </script>
+  </body>
+</html>
