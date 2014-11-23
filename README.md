@@ -1,19 +1,19 @@
-[![Font Feature Affecting logo](examples/logo.png)](https://github.com/kennethormandy/font-feature-affecting)
+[![Font Feature Fibbing logo](examples/logo.png)](https://github.com/kennethormandy/font-feature-fibbing)
 
 ***
 
-# Font Feature Affecting
+# Font Feature Fibbing
 
-A quick check—is the `font-feature-settings` CSS property supported?
+Hey, do you support the `font-feature-settings` in CSS? Safari, look—I know you’re lying!
 
-This is (somewhat intentionally) simple—you will find out whether or not `font-feature-settings` is supported, but not _what_ `font-feature-settings` find out _what_. It’s primarily concerned with seeing through Safari’s lies on the former subject.
+This module is (somewhat intentionally) simple—you will find out whether or not `font-feature-settings` is supported, but not _what_ `font-feature-settings` specifically. It’s primarily concerned with seeing through Safari tendency to twisting the truth on the former subject.
 
 ## Getting started
 
 If you’re using [Browserify](browserify.org), first install the project:
 
 ```sh
-npm install kennethormandy/font-feature-affecting
+npm install kennethormandy/font-feature-fibbing
 ```
 
 Then, `require` it and do something based on the result.
@@ -27,10 +27,10 @@ if(!supportsFontFeatureSettings()) {
 }
 ```
 
-If you’re not using a module system, you can also dropin the [font-feature-affecting.js](dist/font-feature-affecting.js) file with a similar result:
+If you’re not using a module system, you can also dropin the [font-feature-fibbing.js](dist/font-feature-fibbing.js) file with a similar result:
 
 ```html
-<script src="font-feature-affecting.js"></script>
+<script src="font-feature-fibbing.js"></script>
 <script>
   if(!supportsFontFeatureSettings()) {
     // Vent to the user
@@ -39,7 +39,7 @@ If you’re not using a module system, you can also dropin the [font-feature-aff
 </script>
 ```
 
-In this case you’ll almost definitely want to include it with whatever other build process you’re using to include `font-feature-affecting.js` in your main JavaScript file.
+In this case you’ll almost definitely want to include it with whatever other build process you’re using to include `font-feature-fibbing.js` in your main JavaScript file.
 
 ## License
 

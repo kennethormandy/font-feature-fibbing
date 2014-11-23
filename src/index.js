@@ -1,4 +1,4 @@
-/*! font-feature-affecting v0.1.0 | MIT License | github.com/kennethormandy/font-feature-affecting */
+/*! font-feature-fibbing v0.1.0 | MIT License | github.com/kennethormandy/font-feature-affecting */
 
 module.exports = function() {
 
