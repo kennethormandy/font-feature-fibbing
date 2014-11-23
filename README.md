@@ -1,3 +1,7 @@
+[![Font Feature Affecting logo](examples/logo.png)](https://github.com/kennethormandy/font-feature-affecting)
+
+***
+
 # Font Feature Affecting
 
 A quick check—is the `font-feature-settings` CSS property supported?
