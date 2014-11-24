@@ -1,6 +1,6 @@
 {
   "name": "font-feature-fibbing",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Hey, do you support the font-feature-settings CSS property? Safari, look—I know you’re lying!",
   "homepage": "https://github.com/kennethormandy/font-feature-fibbing",
   "repository": "https://github.com/kennethormandy/font-feature-fibbing.git",
