@@ -1,4 +1,7 @@
-/*! font-feature-fibbing v0.3.0 | MIT License | github.com/kennethormandy/font-feature-affecting */
+/**
+ * https://github.com/kennethormandy/font-feature-fibbing
+ * Copyright © 2014–2015 Kenneth Ormandy. Available under the MIT License.
+ */
 
 module.exports = function() {
 

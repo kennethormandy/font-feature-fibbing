@@ -45,4 +45,4 @@ In this case you’ll almost definitely want to include it with whatever other b
 
 [The MIT License (MIT)](LICENSE.md)
 
-Copyright © 2014 [Kenneth Ormandy](http://kennethormandy.com)
+Copyright © 2014–2015 [Kenneth Ormandy](http://kennethormandy.com)
