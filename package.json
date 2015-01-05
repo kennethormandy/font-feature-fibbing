@@ -24,9 +24,10 @@
     ]
   },
   "devDependencies": {
-    "browserify": "~6.3.2",
-    "minify": "git://github.com/ianstormtaylor/minify",
+    "browserify": "^8.0.0",
     "browserify-versionify": "^1.0.3",
+    "http-server": "^0.7.4",
+    "minify": "git://github.com/ianstormtaylor/minify#0.2.0",
     "mocha": "~1.18.2"
   }
 }
