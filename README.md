@@ -10,7 +10,7 @@ This module is (somewhat intentionally) simple—you will find out whether or no
 
 ## Getting started
 
-If you’re using [Browserify](browserify.org), first install the project:
+If you’re using [Browserify](http://browserify.org), first install the project:
 
 ```sh
 npm install kennethormandy/font-feature-fibbing
