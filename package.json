@@ -18,9 +18,15 @@
     "font",
     "tester"
   ],
+  "browserify": {
+    "transform": [
+      "browserify-versionify"
+    ]
+  },
   "devDependencies": {
     "browserify": "~6.3.2",
     "minify": "git://github.com/ianstormtaylor/minify",
+    "browserify-versionify": "^1.0.3",
     "mocha": "~1.18.2"
   }
 }

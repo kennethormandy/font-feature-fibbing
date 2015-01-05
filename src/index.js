@@ -1,4 +1,5 @@
 /**
+ * Font Feature Fibbing __VERSION__
  * https://github.com/kennethormandy/font-feature-fibbing
  * Copyright © 2014–2015 Kenneth Ormandy. Available under the MIT License.
  */
