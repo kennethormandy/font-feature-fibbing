@@ -13,13 +13,13 @@ This module is (somewhat intentionally) simple—you will find out whether or no
 If you’re using [Browserify](http://browserify.org), first install the project:
 
 ```sh
-npm install kennethormandy/font-feature-fibbing
+npm install --save font-feature-fibbing
 ```
 
 Then, `require` it and do something based on the result.
 
 ```js
-var supportsFontFeatureSettings = require('supportsFontFeatureSettings');
+var supportsFontFeatureSettings = require('font-feature-fibbing');
 
 if(!supportsFontFeatureSettings()) {
   // Add a class to `<html>`
