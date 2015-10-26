@@ -11,7 +11,7 @@ module.exports = function() {
     if(document.body.style['fontFeatureSettings'] === '' || document.body.style['webkitFontFeatureSettings'] === '') {
       // Check if it’s Safari, then check if it’s version 8 or less
       var ua = navigator.userAgent;
-      if(ua.match(/Safari/g) && ua.match(/Chrom/g) === null && ua.split('Version/').length > 1 && parseInt(ua.split('Version/')[1].split('.')[0], 10) <= 8) {
+      if(ua.match(/Safari/g) && ua.match(/Chrom/g) === null && ua.split('Version/').length > 1 && parseInt(ua.split('Version/')[1].split('.')[0], 10) <= 9) {
         return false;
       } else {
         // Otherwise, font-feature-settings is supported in some capacity
