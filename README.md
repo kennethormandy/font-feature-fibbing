@@ -21,7 +21,7 @@ Then, `require` it and do something based on the result.
 ```js
 var supportsFontFeatureSettings = require('font-feature-fibbing');
 
-if(!supportsFontFeatureSettings()) {
+if (!supportsFontFeatureSettings()) {
   // Add a class to `<html>`
   document.documentElement.className += ' is-withoutFontFeatureSettings';
 }
@@ -32,7 +32,7 @@ If you’re not using a module system, you can also dropin the [font-feature-fib
 ```html
 <script src="font-feature-fibbing.js"></script>
 <script>
-  if(!supportsFontFeatureSettings()) {
+  if (!supportsFontFeatureSettings()) {
     // Vent to the user
     alert('ugh I really wish you could see these ligatures');
   }
@@ -45,4 +45,4 @@ In this case you’ll almost definitely want to include it with whatever other b
 
 [The MIT License (MIT)](LICENSE.md)
 
-Copyright © 2014–2015 [Kenneth Ormandy](http://kennethormandy.com)
+Copyright © 2014–2016 [Kenneth Ormandy](http://kennethormandy.com)
