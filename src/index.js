@@ -1,11 +1,14 @@
+var ua = require('vigour-ua')
+
 module.exports = function () {
 
-  if (typeof document !== '') {
+  if (typeof document === 'undefined') {
+    return false
+  } else {
     // If font-feature-settings or -webkit-font-feature-settings are present
     if (document.body.style['fontFeatureSettings'] === '' || document.body.style['webkitFontFeatureSettings'] === '') {
-      // Check if it’s Safari, then check if it’s version 9 or less
-      var ua = navigator.userAgent
-      if (ua.match(/Safari/g) && ua.match(/Chrom/g) === null && ua.split('Version/').length > 1 && parseInt(ua.split('Version/')[1].split('.')[0], 10) <= 9) {
+      var agent = ua(navigator.userAgent)
+      if (agent.browser === 'safari' && agent.version <= 9.3) {
         return false
       } else {
         // Otherwise, font-feature-settings is supported in some capacity
@@ -17,5 +20,4 @@ module.exports = function () {
     }
     return false
   }
-
 }

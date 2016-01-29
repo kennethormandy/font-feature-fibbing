@@ -24,7 +24,10 @@
     "browserify": "^8.0.0",
     "http-server": "^0.7.4",
     "minify": "git://github.com/ianstormtaylor/minify#0.2.0",
-    "mocha": "~1.18.2"
+    "mocha": "~1.18.2",
     "standard": "5.4.1"
+  },
+  "dependencies": {
+    "vigour-ua": "0.0.5"
   }
 }
