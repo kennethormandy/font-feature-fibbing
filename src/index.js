@@ -8,7 +8,7 @@ module.exports = function () {
     // If font-feature-settings or -webkit-font-feature-settings are present
     if (document.body.style['fontFeatureSettings'] === '' || document.body.style['webkitFontFeatureSettings'] === '') {
       var agent = ua(navigator.userAgent)
-      if (agent.browser === 'safari' && agent.version <= 9.3) {
+      if (agent.browser === 'safari' && agent.version < 9.1) {
         return false
       } else {
         // Otherwise, font-feature-settings is supported in some capacity
