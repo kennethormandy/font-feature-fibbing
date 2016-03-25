@@ -6,7 +6,7 @@
 
 Hey, do you support the `font-feature-settings` CSS property? Safari, look—I know you’re lying!
 
-This module is (somewhat intentionally) simple—you will find out whether or not `font-feature-settings` is supported, but not _what_ `font-feature-settings` specifically. It’s primarily concerned with seeing through Safari tendency to twisting the truth on the former subject.
+This module is (somewhat intentionally) simple—you will find out whether or not `font-feature-settings` is supported, but not _what_ `font-feature-settings` specifically. Its primary target is Safari v9.2 and lower, which misrepresented whether or not it actually exposed `font-feature-settings` to front-end designers and developers.
 
 ## Getting started
 
